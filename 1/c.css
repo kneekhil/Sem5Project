@@ -1,0 +1,401 @@
+body{
+	
+	font-family: Montserrat;
+	
+	
+	
+}
+
+
+
+.ap1{
+	font-size:2vw;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #044798;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar1 {
+  height: 100%;
+  width: 16%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #044798;
+  overflow-x: hidden;
+  transition: 0.5s;
+  
+}
+
+.sidebar a{
+	margin: 6% 0 0 0;
+    padding: 1vw;
+    text-decoration: none;
+    color: #ffff;
+    display: block;
+    font-size: 2vw;
+    transition: 0.3s;
+}
+
+.sidebar1 a{
+	text-align: center;
+    text-decoration: none;
+    color: #ffff;
+    display: block;
+    font-size: 1.5vw;
+    
+}
+
+
+.sidebar a:hover, .sidebar1 a:hover{
+  color: #818181;
+}
+
+
+.sidebar .closebtn {
+  display:flex;
+  justify-content:end;
+  font-size: 3.6vw;
+  
+}
+.popuplogin .closebtn {
+    margin: 0 0 0 500px;
+    font-size: 3.6vw;
+    text-decoration: none;
+  
+}
+
+.openbtn {
+
+  font-size: 2vw;
+  cursor: pointer;
+  background: rgb(0,143,255);
+	background: linear-gradient(149deg, rgba(0,143,255,1) 9%, rgba(7,61,155,1) 90%);
+	
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+  box-shadow: 5px 5px 5px 0 rgb(0 0 0 / 20%);
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+  
+}
+
+.navbar{
+	height: 7vw;
+	background-color: rgba(255,255,255,0.3);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+	transition: margin-left .5s;
+}
+
+.navbar1{
+	height: 7vw;
+	background-color: rgba(255,255,255,0.3);
+	top:0;
+	background-image: url("1/bg.jpg");
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+	
+	margin-left: 15.8vw;
+	margin-top:0;
+}
+.subtitle{
+	
+    background-color: #044798;
+    color: white;
+    
+	margin-left: 15.8vw;
+	margin-top:0;
+    padding: 5;
+
+}
+
+.mbody{
+	display: flex;
+    justify-content: center;
+	
+    
+    margin-left: 15.8vw;
+	margin-top:5;
+    justify-content: flex-end;
+}
+
+
+
+.label1{
+	float: left;
+    display: flex;
+	font-size: 3vw;
+    background: rgba(0,0,0,0);
+    padding: 10;
+    
+}
+
+.label2{
+	margin: 0px 120px 0px;
+    
+    
+    background-color: rgba(0,0,0,0.2);
+	font-size: 3vw;
+}
+
+.C{
+	display: flex;
+    justify-content: space-between
+}
+
+.D{
+	display: flex;
+    justify-content: space-between;
+}
+
+ul{
+	display: flex;
+    list-style-type: none;
+    
+    justify-content: center;
+    
+}
+
+
+#pname{
+	font-size: 20px;
+    justify-content: center;
+    display: flex;
+	color: white;
+	text-align:center;
+}
+
+
+.button{
+	
+    color: white;
+    background: rgb(0,143,255);
+	background: linear-gradient(149deg, rgba(0,143,255,1) 9%, rgba(7,61,155,1) 90%);
+    text-align: center;
+    font-size: 1vw;
+    text-decoration: none;
+    
+    width: fit-content;
+    cursor: pointer;
+    padding: 5 10;
+}
+
+.button:hover{
+	
+    
+	
+	box-shadow: 5px 5px 5px 0 rgb(0 0 0 / 20%);
+}
+tbody,thead{
+	border-style: solid;
+    border-width: thin;
+}
+td,th{
+	padding:10px;
+}
+form{
+	outline: 10px solid #044798;
+	
+    outline-offset: 8px;
+	background-color: #ffffff94;
+    margin: 50;
+    width:fit-content;
+	
+}
+
+td{
+	text-align:center;
+}
+
+input{
+	width: 200px;
+    text-align: center;
+    padding:5px 2px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+select{
+	width: 200px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: white;
+    margin: 4 0;
+    height: 25px;
+}
+
+.err{
+	color: #044798;
+    background-color: rgba(255,255,255,0.5);
+    position: absolute;
+    left: 41%;
+    margin: 1vw;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #044798;
+    padding: 1%;
+    top: 16%;
+}
+
+
+.snm{
+	    border: none;
+    align-items: center;
+    color: white;
+    appearance: none;
+    display: flex;
+    justify-content: center;
+    font-size: 120%;
+    background: none;
+    cursor: pointer;
+    letter-spacing: 1.5;
+}
+
+#topn{
+	display: flex;
+	justify-content: center;
+	float: left;
+}
+
+#topn label{
+	color: white;
+    font-size: 20px;
+    margin: 1vw 0 0 0;
+}
+#navlogo{
+	height: 14vw;
+	margin: 10%;
+}
+#side_logout
+{   left: 50px;
+    position: absolute;
+    color: Black;
+	text-decoration:none;
+    /* border-style: solid; */
+    padding: 10;
+    margin: 10;
+    background-color: white;
+}
+
+.pcount{
+	margin: 0 15;
+        background: #ffc107;
+    padding: 0 70 0 15;
+    height: fit-content;
+	transition:0.5s;
+}
+.dcount{
+	margin: 0 15;
+        background: #28a745;
+    padding: 0 70 0 15;
+    height: fit-content;
+}
+.todayspatient{
+	color: white;
+    font-weight: 500;
+    background-color: #044798;
+    border: #044798;
+    border-style: solid;
+    padding: 10 10 0 10;
+    margin: 2vw 0 0 20;
+    width: fit-content;
+	height: 280px;
+    overflow: auto;
+    
+}
+.panelbox{
+	margin: 0 0 0 15.8vw;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+}
+.pbody{
+	display: flex;
+    justify-content: center;
+    margin: 50 0 0 0;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+	flex-direction: row;
+	
+}
+.pser{
+	margin:20;
+}
+/* The grid: Three equal columns that floats next to each other */
+.column {
+  background:#044798;
+  padding: 10 50px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  color: white;
+}
+.column:hover{
+	background:white;
+	color:#044798;
+}
+
+div#b2.grid{
+  display: grid;
+    grid-template-columns: auto auto;
+    
+  
+}
+.grid{
+	padding: 20px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	margin: 2% 0 0 16vw;
+}
+
+/* Clear floats after the columns */
+.row{
+	margin:2% 0 0 16vw;
+	display:flex;
+	justify-content:center;
+}
+.row:hover{
+	background-color: rgba(255,255,255,0.3);
+}
+.row:after {
+	
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Closable button inside the container tab */
+.closeb {
+	color:black;
+      font-weight: bolder;
+    align-items: center;
+    font-size: 35px;
+    cursor: pointer;
+    align-content: center;
+    margin: 4px 0 0 24%;
+}
+
